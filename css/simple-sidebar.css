@@ -182,8 +182,8 @@
 .indented { padding-left: 60pt; padding-right: 60pt; }
 
 #footer {
-  position: fixed;
-  bottom: 0px; /* negative value of footer height */
+  position: relative;
+  margin-top: 200px; /* negative value of footer height */
   height: 100px;
   clear:both;
 } 
