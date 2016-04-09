@@ -181,7 +181,7 @@
     overflow-y: auto;
 }
 
-.indented { padding-left: 60pt; padding-right: 60pt; }
+.indented { padding-left: 35pt; padding-right: 20pt; }
 
 #footer {
   position: relative;
