@@ -123,7 +123,7 @@
     display: block;
 }
  
-@media(min-width:768px) {
+@media only screen and (min-width:768px) {
     #wrapper {
         padding-left: 250px;
     }
@@ -199,10 +199,6 @@
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
     }
-}
-
-@media only screen and (max-width: 767px) {
-.responsive #top #main .sidebar {display:block !important; clear: both; }
 }
 
 #main {
