@@ -1,137 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-#header {
-    background-color:#eeeeee;
-    color:black;
-    text-align:center;
-    padding:10px;
-}
-#side {
-    line-height:30px;
-    background-color:white;
-    height:300px;
-    width:200px;
-    float:left;
-    padding:50px;
-}
-#section {
-    width:800px;
-    float:left;
-    padding:20px;
-}
 
-</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-<font face="Georgia">
 
-<div id="header">
-<h1>Ran Cui</h1>
-</div>
+    <div id="wrapper">
 
-<div id ="side">
-<img src="profilepic.jpg" alt="profilepic" style="width:200px;height:218px;">
-</div>
+        <!-- Sidebar -->
 
+    <!--</nav>-->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+            
+            <!-- Profile picture, name, and university -->
+                <div id="profilepic-wrapper" align="center">
+                    <img  class="img-circle" src="img/profilepic.jpg" style="width:122px;height:135px;">
+                </div>
+                <div id="name-wrapper" align="center">
+                    <font color=#999999><h3>Ran Cui</h3></font>
+                    <font color=#999999><h4>University of Maryland</h4></font>
+                </div>
+                
+                <!-- navigation bar -->
+ 
+                <li class="active">
+                    <a href="index.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-home fa-stack-1x "></i></span> Home</a>
+                       <!--<ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                        <li><a href="#">link1</a></li>
+                        <li><a href="#">link2</a></li>
+                    </ul>-->
+                </li>
+                
+                <li>
+                    <a href="research.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-book fa-stack-1x "></i></span>Research</a>
+                </li>
+                <li>
+                    <a href="papers.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-pencil-square-o fa-stack-1x "></i></span>Papers/Notes</a>
+                </li>
+                <li>
+                    <a href="teaching.html"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-paperclip fa-stack-1x "></i></span>Teaching</a>
+                </li>
+                <li>
+                    <a href="contact.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-envelope fa-stack-1x "></i></span>Contact</a>
+                </li>
+                <!--
+                <li>
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Contact</a>
+                </li>-->
+                <li>
+                    <a href="hobby.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-paint-brush fa-stack-1x "></i></span>Hobby</a>
+                    <!--<ul class="nav-pills nav-stacked" style="list-style-type:none;">
+                        <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+                        <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+ 
+                    </ul>-->
+                </li>
+            </ul>
+        </div><!-- /#sidebar-wrapper -->
+        <!-- Page Content -->
+       
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- jQuery -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sidebar_menu.js"></script>
+        <!-- /#sidebar-wrapper -->
 
-<div id="section">
-<p>
-Welcome to my webpage! I am a math PhD student at <a href="http://www.math.umd.edu/" target="_tab">University of Maryland</a>, my advisor is <a href="http://www.math.umd.edu/~jda/" target="_tab">Jeffrey Adams</a>.
-</p>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Welcome!</h1>
+                        <div id="main">
+                            <p>I am a Ph.D. student at University of Maryland. My advisor is <a href="http://www.math.umd.edu/~jda/">Jeffrey Adams</a>. I am graduating in May 2016.</p>
+                            
+                            <p>I study representation theory and Lie groups. Especially the Real-Quaternionic indicator of irreducible self-conjugate representations and how it relates to the Frobenius-Schur indicator. I'm interested in related concepts in p-adic representation theory. I'm also interested in the p-adic Langlands program and the <tt><a href="http://www.liegroups.org/">atlas</a></tt> of Lie groups project.</p>
+                            
+                            <p>I am also a beginner <a href="https://en.wikipedia.org/wiki/Data_science">Data Scientist</a>. I'm interested in machine learning, artificial intelligence, and the application of representation theory in probability and statistics.</p>
+                            
+                            <p>Here is my <a href="pdf/cv_ran.pdf" target="_tab">CV</a>. </p>
+                            
+                            <p>P.S., my husband, Richard Rast, is a logician specializing in model theory. He is also a data scientist and a hobbyist programmer. Here is his <a href="http://rodya-mirov.github.io/">website</a>.
+                            
+                            <div id="footer">
+                                If you like my website, you can download this <a href="template.7z">template</a>.
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- /#page-content-wrapper -->
 
+    </div>
+    <!-- /#wrapper -->
 
-<h2>Research Interest</h2>
-<p>
-I'm interested in representation theory, specifically the Real-Quaternionic indicators and the Frobenius-Schur indicators of representations of real Lie groups, as well as related concepts in p-adic representation theory. I'm also interested in the p-adic Langlands program and the <code>atlas</code> of Lie groups project.<br>
-</p>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-<p>
-This is my <a href="cv_ran.pdf" target="_tab">CV</a>, and my <a href="Research_statement_Ran_Cui.pdf">Research Statement</a>
-</p>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-
-
-<h2>Contact Information</h2>
-<p>
-Address: <dd>Department of Mathmatics, <br>
-         University of Maryland,<br>
-         4176 Campus Dr.<br>
-         College Park, MD 20742<br> </dd>
-</p>
-<p>
-Email is the best way to reach me: cuiran@math.umd.edu
-</p>
-
-
-<h2>Papers and Preprints</h2>
-<ul compact="compact" type="disc">
-
-<li>(Thesis) Ran Cui, "The Real-Quaternionic Indicator of Irreducible Self-Conjugate
-Representations of Real Reductive Groups and Some New Proofs for the Construction of Local Langlands Correspondence of GL(2, F)" (<a href="mainthesis.pdf" target="_blank">pdf</a>) <br></li>
-<br>
-
-
-<li> Ran Cui, "An Explicit Construction of the Local Langlands Correspondence of GL(2,F)" (<a href="http://arxiv.org/abs/1511.03309" target="_blank">arXiv</a>)  <br></li>
-</ul>
-
-<h2>Notes and Expository Papers</h2>
-<ul compact="compact" type="disc">
-<li> Ran Cui, "Tamagawa Number for SL(2)" (<a href="tamagawa_number_sl2.pdf" target="_tab">pdf</a>)<br>
-
-<li> Ran Cui, "The Finite Harmonic Oscillator and its Applications" (<a href="finite_harmonic_oscillator.pdf" target="_tab">pdf</a>)
-</ul>
-
-<h2>Talks</h2>
-<ul compact="compact" type="disc">
-<li> Lie Groups seminar at Yale University, "The Real-Quaternionic Indicator"
-
-<li> AMS special session at Rutgers, "The Real-Quaternionic Indicator", <a href="Rutgers_talk_Nov_2015.pdf" target="_tab">slides</a>
-</ul>
-
-<h2>Teaching</h2>
-
-<p>I'm currently a TA for STAT100. Discussion sessions are on MWF 8am-8:50am (Section 0111) and MWF 9am-9:50am (Section 0121) in ARM 0112.
-</p>
-<p>
-If you are enrolled, you can find all your course information on <a href="https://myelms.umd.edu/" target="_tab">ELMS</a>
-</p>
-<p>
-  My office hours are Fridays 12pm-2pm at ARM 0112. If you can't find me there, my office is MATH 0210. See <a href="http://maps.umd.edu/map/" target="_tab">map</a> of the campus.
-</p>
-
-
-
-<h2>Other</h2>
-
-<p>
-My husband Richard Rast is a logician, more specifically a Model Theorist, here is his <a href="http://rodya-mirov.github.io/" target="_tab">website</a>.
-</p>
-
-<p>
-In UMD, we have a great <a href="http://wim.math.umd.edu/" target="_tab">Women in Math</a> program!
-</p>
-
-</div>
-
-
-</font>
-
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73605371-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 </body>
+
 </html>
