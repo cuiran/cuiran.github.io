@@ -124,7 +124,8 @@
 }
 
 @media (min-width:768px) {
- .responsive #sidebar #main #wrapper{}
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left:216px;}
     #wrapper {
         padding-left: 250px;
     }
