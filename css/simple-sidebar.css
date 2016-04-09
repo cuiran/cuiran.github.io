@@ -123,7 +123,8 @@
     display: block;
 }
 
-@media only screen and (min-width:768px) {
+@media (min-width:768px) {
+ .responsive #sidebar #main #wrapper{}
     #wrapper {
         padding-left: 250px;
     }
