@@ -124,8 +124,6 @@
 }
 
 @media (min-width:768px) {
-    #leftsidebar {width: 200px; float: left;}
-    
     #wrapper {
         padding-left: 250px;
     }
