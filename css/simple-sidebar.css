@@ -122,7 +122,7 @@
 .button-show-sidebar {
     display: block;
 }
-/* 
+
 @media only screen and (min-width:768px) {
     #wrapper {
         padding-left: 250px;
@@ -173,7 +173,7 @@
         transition: all 0.5s ease;
         width: auto;
     }
-} */
+} 
 
 #main {
     margin-top: 60px;
