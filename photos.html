@@ -3,10 +3,10 @@
 
 <head>
 
+
     <style>
         div.img {
-            position: relative;
-            margin: 10px;
+            margin: 5px;
             border: 1px solid #ccc;
             float: left;
             width: 180px;
@@ -18,7 +18,7 @@
 
         div.img img {
             width: 100%;
-            height: 100%;
+            height: auto;
             }
 
         div.desc {
@@ -26,13 +26,16 @@
             text-align: center;
         }
     </style>
+    
+    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bio</title>
+    <title>Ran Cui</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -55,30 +58,20 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-
-    <!--</nav>-->
-    <div id="wrapper">
-        <!-- Sidebar -->
         <div id="sidebar-wrapper">
-            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+            <ul class="sidebar-nav nav-pills nav-stacked">
             
-            <!-- Profile picture, name, and university -->
                 <div id="profilepic-wrapper" align="center">
                     <img  class="img-circle" src="img/profilepic.jpg" style="width:122px;height:135px;">
                 </div>
                 <div id="name-wrapper" align="center">
                     <font color=#999999><h3>Ran Cui</h3></font>
                     <font color=#999999><h4>University of Maryland</h4></font>
-                </div>
-                
-                <!-- navigation bar -->
- 
-                <li>
+                </div> 
+            
+            
+                 <li>
                     <a href="index.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-home fa-stack-1x "></i></span> Home</a>
-                       <!--<ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                        <li><a href="#">link1</a></li>
-                        <li><a href="#">link2</a></li>
-                    </ul>-->
                 </li>
                 
                 <li>
@@ -93,29 +86,12 @@
                 <li>
                     <a href="contact.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-envelope fa-stack-1x "></i></span>Contact</a>
                 </li>
-                <!--
-                <li>
-                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Contact</a>
-                </li>-->
                 <li class="active">
                     <a href="hobby.html"><span class="fa-stack fa-lg pull-left"><i class="fa fa-paint-brush fa-stack-1x "></i></span>Hobby</a>
-                    <!--<ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                        <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
-                        <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
- 
-                    </ul>-->
                 </li>
+               
             </ul>
-        </div><!-- /#sidebar-wrapper -->
-        <!-- Page Content -->
-       
-        <!-- /#page-content-wrapper -->
-    </div>
-    <!-- /#wrapper -->
-    <!-- jQuery -->
-    <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/sidebar_menu.js"></script>
+        </div>
         <!-- /#sidebar-wrapper -->
 
         <!-- Page Content -->
@@ -123,82 +99,81 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
+                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
                         <h1>Photos</h1>
                         <div id="main">
-                        <p class="bottom-thirty">I have been trying to take better pictures. I used Nexus 5 before August 2015; Nexus 6 since then.</p>
+                            <p class="bottom-thirty">I have been trying to take better pictures. I used Nexus 5 before August 2015; Nexus 6 since then.</p>
 
-
-
-                        <div class="img">
-                        <a target="_blank" href="img/photos/AtlanticBnB.jpg">
-                            <img src="img/photos/AtlanticBnB.jpg" alt="Atlantic House BnB" width="326" height="218">
-                        </a>
-                        <div class="desc">Atlantic House BnB. July 26, 2014.</div>
+                            <div class="img">
+                            <a target="_blank" href="img/photos/AtlanticBnB.jpg">
+                                <img src="img/photos/AtlanticBnB.jpg" alt="Atlantic House BnB" width="326" height="218">
+                            </a>
+                            <div class="desc">Atlantic House BnB. July 26, 2014.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Flowers_against_wall.jpg">
+                                <img src="img/photos/Flowers_against_wall.jpg" alt="Flowers Against Wall" width="326" height="218">
+                            </a>
+                            <div class="desc">Flowers Against Wall. April 12, 2015.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Orchid.jpg">
+                                <img src="img/photos/Orchid.jpg" alt="Orchid" width="326" height="218">
+                            </a>
+                            <div class="desc">Orchid.<br> Oct 4, 2014.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Line_of_apts.jpg">
+                                <img src="img/photos/Line_of_apts.jpg" alt="Line of Apartments" width="326" height="218">
+                            </a>
+                            <div class="desc">Row of Apartments. May 23, 2015.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Ocean_mountain_reflection.jpg">
+                                <img src="img/photos/Ocean_mountain_reflection.jpg" alt="Mountain Reflection in Ocean" width="326" height="218">
+                            </a>
+                            <div class="desc">Ocean and Reflections of Kauai. Jan 1, 2016.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/rainbow.jpg">
+                                <img src="img/photos/rainbow.jpg" alt="Rainbow" width="326" height="218">
+                            </a>
+                            <div class="desc">Rainbow.<br> April 7, 2016.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Tree_bark.jpg">
+                                <img src="img/photos/Tree_bark.jpg" alt="Tree Bark" width="326" height="218">
+                            </a>
+                            <div class="desc">Tree Bark. July 11, 2015.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/Boardwalk.jpg">
+                                <img src="img/photos/Boardwalk.jpg" alt="Boardwalk" width="326" height="218">
+                            </a>
+                            <div class="desc">Boardwalk.<br> July 25, 2014.</div>
+                            </div>
+                            
+                            <div class="img">
+                            <a target="_blank" href="img/photos/cherry_memorial.jpg">
+                                <img src="img/photos/cherry_memorial.jpg" alt="DC Cherry Blossom" width="326" height="218">
+                            </a>
+                            <div class="desc">D.C. Cherry Blossom.<br> March 26, 2016.</div>
+                            </div>
                         </div>
+                    
+                    
                         
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Flowers_against_wall.jpg">
-                            <img src="img/photos/Flowers_against_wall.jpg" alt="Flowers Against Wall" width="326" height="218">
-                        </a>
-                        <div class="desc">Flowers Against Wall. April 12, 2015.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Orchid.jpg">
-                            <img src="img/photos/Orchid.jpg" alt="Orchid" width="326" height="218">
-                        </a>
-                        <div class="desc">Orchid.<br> Oct 4, 2014.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Line_of_apts.jpg">
-                            <img src="img/photos/Line_of_apts.jpg" alt="Line of Apartments" width="326" height="218">
-                        </a>
-                        <div class="desc">Row of Apartments. May 23, 2015.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Ocean_mountain_reflection.jpg">
-                            <img src="img/photos/Ocean_mountain_reflection.jpg" alt="Mountain Reflection in Ocean" width="326" height="218">
-                        </a>
-                        <div class="desc">Ocean and Reflections of Kauai. Jan 1, 2016.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/rainbow.jpg">
-                            <img src="img/photos/rainbow.jpg" alt="Rainbow" width="326" height="218">
-                        </a>
-                        <div class="desc">Rainbow.<br> April 7, 2016.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Tree_bark.jpg">
-                            <img src="img/photos/Tree_bark.jpg" alt="Tree Bark" width="326" height="218">
-                        </a>
-                        <div class="desc">Tree Bark. July 11, 2015.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/Boardwalk.jpg">
-                            <img src="img/photos/Boardwalk.jpg" alt="Boardwalk" width="326" height="218">
-                        </a>
-                        <div class="desc">Boardwalk.<br> July 25, 2014.</div>
-                        </div>
-                        
-                        <div class="img">
-                        <a target="_blank" href="img/photos/cherry_memorial.jpg">
-                            <img src="img/photos/cherry_memorial.jpg" alt="DC Cherry Blossom" width="326" height="218">
-                        </a>
-                        <div class="desc">D.C. Cherry Blossom.<br> March 26, 2016.</div>
-                        </div>
-                        
-                        
-
                     </div>
                 </div>
             </div>
         </div>
-        
         <!-- /#page-content-wrapper -->
 
     </div>
@@ -206,6 +181,8 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
@@ -217,6 +194,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
 </body>
 
 </html>
